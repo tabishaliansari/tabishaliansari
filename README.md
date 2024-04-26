@@ -51,4 +51,4 @@ When I'm not immersed in the world of AI and data, you'll often find me indulgin
 | SQL, NoSQL, RDBMS, MySQL   |                                      |                                 |
 
 ### Let's connect !!!
-📧 [Tabish Ali Ansari](mailto:tabish.ansari004@yahoo.com?subject=[GitHub]%20Source%20Han%20Sans)\
+📧 [Tabish Ali Ansari](mailto:tabish.ansari004@yahoo.com?subject=[GitHub]%20Source%20Han%20Sans)
