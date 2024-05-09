@@ -47,8 +47,8 @@ When I'm not immersed in the world of AI and data, you'll often find me indulgin
 | YoloV7, OpenCV             | Operating Systems                    | Honest                          |
 | Pytorch                    | Software Engineering                 | Adaptable                       |
 | Sklearn, TensorFlow        | Data Structures                      | Problem Solving                 |
-| C/C++                      | Algorithms                           |                                 |
-| SQL, NoSQL, RDBMS, MySQL   |                                      |                                 |
+| C/C++                      | Algorithms                           | Communicative                   |
+| MongoDB, InfluxDB, Grafana | SQL, NoSQL, RDBMS, MySQL             |                                 |
 
 ### Let's connect !!!
 📧 [Tabish Ali Ansari](mailto:tabish.ansari004@yahoo.com?subject=[GitHub]%20Source%20Han%20Sans)
