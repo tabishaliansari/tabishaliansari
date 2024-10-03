@@ -3,9 +3,8 @@
 ## 🤖 Tabish Ali Ansari 🖥️
 > - Artificial Intelligence and Data Science protege.
 > - Bachelor of Technology student at AISSMS Institute of Information Technology.
-> - Results-driven student pursuing a Bachelor's in Artificial Intelligence and Data Science.
-> - Fluent in Python3 and skilled in modules and libraries.
-> - Actively engaged in coursework and competitions, demonstrating leadership, communication, and problem-solving abilities. 
+> - Well versed with Python3 and skilled in modules and libraries.
+> - Actively engaged in coursework, hackathons and competitions, demonstrating leadership, communication, and problem-solving abilities. 
 > - Eager to contribute innovative solutions in a dynamic tech environment.
 ***
 🌟 **Objective**: To contribute meaningfully to the ever-evolving landscape of artificial intelligence and data science, pushing the boundaries of what's possible and making a positive impact on the world.
@@ -41,14 +40,17 @@ When I'm not immersed in the world of AI and data, you'll often find me indulgin
 ### ` Simple but Unique `
 | **Technical Skills**       | **Curriculum**                       | **Soft Skills**                 |
 |----------------------------|--------------------------------------|---------------------------------|
-| NumPy, SciPy               | Artificial Intelligence              | Influential                     |
-| Pandas, Statistics         | Discrete Mathematics & Statistics    | Initiative                      |
-| Matplotlib, Seaborn        | Exploratory Data Analysis            | Emotionally Intelligent         |
-| YoloV7, OpenCV             | Operating Systems                    | Honest                          |
-| Pytorch, Prophet           | Software Engineering                 | Adaptable                       |
-| Sklearn, TensorFlow        | Data Structures                      | Problem Solving                 |
-| C/C++, Transformers        | Algorithms                           | Communicative                   |
-| MongoDB, InfluxDB, Grafana | SQL, NoSQL, RDBMS, MySQL             |                                 |
+| Python, C/C++, HTML, CSS   | Artificial Intelligence              | Influential                     |
+| Numpy, Pandas, Statistics  | Discrete Mathematics & Statistics    | Initiative                      |
+| SciPy, Matplotlib, Seaborn | Exploratory Data Analysis            | Emotionally Intelligent         |
+| YoloV7, OpenCV, requests   | Operating Systems                    | Honest                          |
+| Pytorch, Prophet, tkinter  | Software Engineering                 | Adaptable                       |
+| Sklearn, TensorFlow, Keras | Data Structures                      | Problem Solving                 |
+| Transformers, Hugging Face | Algorithms                           | Communicative                   |
+| MongoDB, InfluxDB, Grafana | SQL, NoSQL, RDBMS, MySQL             | Responsible                     |
+| Neural Networks - CNN, RNN |                                      |                                 |
+| GenAI - GAN, cGAN, LLM, RAG|                                      |                                 |
 
 ### Let's connect !!!
-📧 [Tabish Ali Ansari](mailto:tabish.ansari004@yahoo.com?subject=[GitHub]%20Source%20Han%20Sans)
+📧 [Email](mailto:tabish.ansari004@yahoo.com?subject=[GitHub]%20Source%20Han%20Sans)  
+🖇️ [Linked In](https://www.linkedin.com/in/tabishaliansari/)
