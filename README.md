@@ -52,5 +52,6 @@ When I'm not immersed in the world of AI and data, you'll often find me indulgin
 | GenAI - GAN, cGAN, LLM, RAG|                                      |                                 |
 
 ### Let's connect !!!
+📜 [Resume](https://drive.google.com/file/d/1KzWKhV-KvLa3XYoxOBiKHnC3H2Pzhh0X/view?usp=sharing)  
 📧 [Email](mailto:tabish.ansari004@yahoo.com?subject=[GitHub]%20Source%20Han%20Sans)  
 🖇️ [Linked In](https://www.linkedin.com/in/tabishaliansari/)
