@@ -52,12 +52,11 @@ But if you're looking for fresh talent with guts, grit, and game? You're home. �
 
 ## 🧪 Live Projects – Touch, Click, Explore!
 
-| 🚀 Project | 💡 What It Does | 🔗 Live Demo |
-|-----------|-----------------|--------------|
-| **[🧠 NeuroMedGraph](https://github.com/tabishaliansari/NeuroMedGraph)** | Extracts knowledge triples from rare disease literature using LLMs and visualizes them in a Neo4j graph. | Coming soon |
-| **[📊 Crime Data Dashboard](https://github.com/tabishaliansari/Crime-Data-Dashboard)** | Interactive visual platform using Streamlit for real-world crime statistics. | [Try it](#) |
-| **[🕹️ Hand Gesture Recognition](https://github.com/tabishaliansari/Hand-Gesture-Recognition)** | Real-time gesture detection with YOLOv7 and OpenCV. | - |
-| **[🌦️ Weather App (Tkinter)](https://github.com/tabishaliansari/Weather-Forecast-App)** | GUI-based app using public APIs for live weather. | - |
+| 🚀 Project                                                                           | 💡 What It Does                                                                                          | 🔗 Live Demo                         |
+|--------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|--------------------------------------|
+| **[🧠 NeuroMedGraph](https://github.com/tabishaliansari/Mavericks_AMUHACKS4.0)**             | Extracts knowledge triples from rare disease literature using LLMs and visualizes them in a Neo4j graph. | [Demo](https://youtu.be/1sUiHItBjoA) |
+| **[💉 MetaboliQ AI](https://github.com/tabishaliansari/MetaboliQ-AI)**               | Comprehensive AI empowered Dashboard and Monitoring tool for Diabetes.                                   | [Demo](https://youtu.be/sxvw4tzdTpY) |
+| **[👨‍⚕️ Diagnosify IO](https://github.com/Ayushlokre/Mavericks)** | Real-time ML tool which diagnoses diseases aimed at aiding Medical Professionals.                        | [Demo](https://youtu.be/DMcQgEITDaU)                             |
 
 🧠 Want a deeper dive? Head into the repos. I comment like I’m teaching future-me.
 
