@@ -108,7 +108,7 @@ And yes — one day — build a startup from scratch. Let’s talk moonshots. �
 
 ## 📬 Contact Me (Slide into my DMs... professionally)
 
-📜 [My Resume]()  
+📜 [My Resume](./Resume.pdf)  
 🧔 [Portfolio](https://tabishaliansari.carrd.co/)  
 📧 [Email Me](mailto:tabish.ansari004@yahoo.com)  
 🔗 [LinkedIn](https://www.linkedin.com/in/tabishaliansari/)
