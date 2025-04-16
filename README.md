@@ -1,57 +1,118 @@
-### ` Fasten your seatbelt💺, ma chérie, for you are in for a ride!🎢`
-***
-## 🤖 Tabish Ali Ansari 🖥️
-> - Artificial Intelligence and Data Science protege.
-> - Bachelor of Technology student at AISSMS Institute of Information Technology.
-> - Well versed with Python3 and skilled in modules and libraries.
-> - Actively engaged in coursework, hackathons and competitions, demonstrating leadership, communication, and problem-solving abilities. 
-> - Eager to contribute innovative solutions in a dynamic tech environment.
-***
-🌟 **Objective**: To contribute meaningfully to the ever-evolving landscape of artificial intelligence and data science, pushing the boundaries of what's possible and making a positive impact on the world.
+<h1 align="center">👋 Hey there, ma chérie! Buckle up — you’ve just entered Tabish’s Tech Universe! 💺🎢</h1>
+<p align="center">
+  <em>Freshly brewed AI enthusiast ☕ | Code conjurer 🧙 | Data dreamer 🌌</em><br>
+  <strong>B.Tech in Artificial Intelligence & Data Science @ <a href="https://aissmsioit.org/" target="_blank">AISSMS IOIT</a></strong><br>
+  <strong>Intern @ <a href="https://nonstopio.com/" target="_blank">NonStop io Technologies</a></strong>
+</p>
 
-🚀 **Unleash the Power of Data!**
-Welcome to the realm of innovation, where I, a zealous student, am on a quest for excellence in the ever-evolving landscape of Artificial Intelligence and Data Science.\
-\
-🎓 **Academic Ambition:**
-Venturing forth with a Bachelor's in Artificial Intelligence and Data Science, I am not merely a student; I am a pioneer, a trailblazer of tomorrow's technology.\
-\
-🔍 **Mastery in Action:**
-Fluency in Python3 is not just a skill; it's my language of creation. With a command over modules and libraries, I wield the tools of transformation, turning data into insights, and ideas into reality.\
-\
-🏋️‍♂️ **Active Engagement:**
-I don't just study; I immerse myself. Engaged in coursework that challenges and inspires, I thrive in the crucible of competition, honing not just technical prowess but also leadership, communication,
-and problem-solving acumen.\
-\
-💡 **Innovative Vision:**
-The future beckons, and I am ready to answer the call. Eager to contribute, I bring to the table not just solutions but innovations, not just ideas but breakthroughs. In a dynamic tech environment,
-I don't just adapt; I thrive.\
-\
-With me, you don't just get a student; you get a force to be reckoned with, a catalyst for change, and a harbinger of innovation. Together, let's push the boundaries of what's possible and
-shape a future that's limited only by our imagination! 🌟🔥
-***
-## Hobbies: 
-When I'm not immersed in the world of AI and data, you'll often find me indulging in my favorite hobbies:
-\
-⚽ **Football:** Whether it's kicking a ball around with friends or cheering for my favorite team, football is my ultimate stress-buster.\
-📚 **Reading:** There's nothing quite like getting lost in the pages of a captivating book. From fiction to non-fiction, I love exploring diverse genres and expanding my horizons.\
-🏊 **Swimming:** The tranquil embrace of the water is where I find solace. Swimming not only helps me stay fit but also clears my mind and rejuvenates my spirit.
-***
-## Skills:
-### ` Simple but Unique `
-| **Technical Skills**       | **Curriculum**                       | **Soft Skills**                 |
-|----------------------------|--------------------------------------|---------------------------------|
-| Python, C/C++, HTML, CSS   | Artificial Intelligence              | Influential                     |
-| Numpy, Pandas, Statistics  | Discrete Mathematics & Statistics    | Initiative                      |
-| SciPy, Matplotlib, Seaborn | Exploratory Data Analysis            | Emotionally Intelligent         |
-| YoloV7, OpenCV, requests   | Operating Systems                    | Honest                          |
-| Pytorch, Prophet, tkinter  | Software Engineering                 | Adaptable                       |
-| Sklearn, TensorFlow, Keras | Data Structures                      | Problem Solving                 |
-| Transformers, Hugging Face | Algorithms                           | Communicative                   |
-| MongoDB, InfluxDB, Grafana | SQL, NoSQL, RDBMS, MySQL             | Responsible                     |
-| Neural Networks - CNN, RNN |                                      |                                 |
-| GenAI - GAN, cGAN, LLM, RAG|                                      |                                 |
 
-### Let's connect !!!
-📜 [Resume](https://drive.google.com/file/d/1KzWKhV-KvLa3XYoxOBiKHnC3H2Pzhh0X/view?usp=sharing)  
-📧 [Email](mailto:tabish.ansari004@yahoo.com?subject=[GitHub]%20Source%20Han%20Sans)  
-🖇️ [Linked In](https://www.linkedin.com/in/tabishaliansari/)
+---
+
+## ✨ Who Am I?
+
+> You’ve stumbled into a place where Python breathes, data talks, and ideas come alive.
+
+🎓 I’m **Tabish Ali Ansari**, a relentless explorer of the tech cosmos. Currently pursuing a B.Tech in AI & Data Science, I thrive at the intersection of curiosity, creativity, and computation.
+
+💡 From building knowledge graphs for rare diseases to crafting prediction engines and cool dashboards — I don't just write code; I build experiences.
+
+---
+
+## 🔧 My Arsenal (I am not a Gunners fan)– Tech Stack
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,java,c,cpp" />
+  <br/>
+  <img src="https://skillicons.dev/icons?i=opencv,pytorch,tensorflow,git" />
+  <br/>
+  <img src="https://skillicons.dev/icons?i=mongodb,mysql,postgres,grafana" />
+  <br/>
+  <img src="https://skillicons.dev/icons?i=fastapi,flask,vscode,linux" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Seaborn-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Neo4j-008CC1?style=for-the-badge&logo=neo4j&logoColor=white"/>
+  <img src="https://img.shields.io/badge/SpringBoot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"/>
+</p>
+
+---
+
+## 🌌 Why I Do What I Do
+
+> 🚀 "To bend the machine to human will—and then stretch imagination beyond."
+
+I believe in **human-first AI**, crafting tech that makes lives better. I'm driven by impact, storytelling through data, and building tools that *matter*.
+
+So if you're here to browse GitHub for another generic dev, oops—wrong tab. 😄  
+But if you're looking for fresh talent with guts, grit, and game? You're home. 🏠
+
+---
+
+## 🧪 Live Projects – Touch, Click, Explore!
+
+| 🚀 Project | 💡 What It Does | 🔗 Live Demo |
+|-----------|-----------------|--------------|
+| **[🧠 NeuroMedGraph](https://github.com/tabishaliansari/NeuroMedGraph)** | Extracts knowledge triples from rare disease literature using LLMs and visualizes them in a Neo4j graph. | Coming soon |
+| **[📊 Crime Data Dashboard](https://github.com/tabishaliansari/Crime-Data-Dashboard)** | Interactive visual platform using Streamlit for real-world crime statistics. | [Try it](#) |
+| **[🕹️ Hand Gesture Recognition](https://github.com/tabishaliansari/Hand-Gesture-Recognition)** | Real-time gesture detection with YOLOv7 and OpenCV. | - |
+| **[🌦️ Weather App (Tkinter)](https://github.com/tabishaliansari/Weather-Forecast-App)** | GUI-based app using public APIs for live weather. | - |
+
+🧠 Want a deeper dive? Head into the repos. I comment like I’m teaching future-me.
+
+---
+
+## ⚡ Hackathons: My Playground
+
+> “Deadlines? Check. Coffee? Check. Brain on fire? Absolutely.” 🔥
+
+🌐 **Intel AI Hackathon @ IEEE Indicon IIT KGP** – Top 10 national grand finalist.  
+🏆 **Smart India Hackathon**  
+🚀 **BLITZ by ISB&M Pune** - Prize Winner  
+🌟 **AMUHacks by AMU, Aligarh**  
+🧑‍💻 **Techathon by Innovation Foundation @ AISSMS IOIT**
+
+---
+
+## 📈 GitHub Stats – Because Numbers Speak Too
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=tabishaliansari&label=Profile%20views&color=0e75b6&style=flat" /><br>
+  <img src="https://github-readme-stats.vercel.app/api?username=tabishaliansari&show_icons=true&theme=github_dark" />
+  <img src="https://streak-stats.demolab.com?user=tabishaliansari&theme=dark&hide_border=true" />
+  <img src="https://github-profile-trophy.vercel.app/?username=tabishaliansari&theme=onestar&no-frame=true&row=1&column=7" />
+</p>
+
+---
+
+## 📌 Goals & Grit
+
+🎯 Build a community where people can work on:
+- 🤖 AI/ML products that ship
+- 🧠 Research in GenAI, ASI & Quantum Computing
+- 📊 Data platforms that inform real decisions
+
+And yes — one day — build a startup from scratch. Let’s talk moonshots. 🌕
+
+---
+
+## 🎒 Fun Facts & Hobbies
+
+⚽ Footballer by heart – Hala Madrid 🤍  
+📚 Cinefile – From sci-fi to stoicism  
+🏊 Swimmer – Nothing beats deep thoughts underwater  
+🎶 Also a sucker for lo-fi beats while coding (open to collab playlists 🎧)
+
+---
+
+## 📬 Contact Me (Slide into my DMs... professionally)
+
+📜 [My Resume]()  
+🧔 [Portfolio](https://tabishaliansari.carrd.co/)  
+📧 [Email Me](mailto:tabish.ansari004@yahoo.com)  
+🔗 [LinkedIn](https://www.linkedin.com/in/tabishaliansari/)
+
+---
+
+> "Stay curious. Code boldly. Be ridiculously passionate." ❤️
