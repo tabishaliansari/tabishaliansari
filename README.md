@@ -83,6 +83,12 @@ But if you're looking for fresh talent with guts, grit, and game? You're home. ð
   <img src="https://github-profile-trophy.vercel.app/?username=tabishaliansari&theme=onestar&no-frame=true&row=1&column=7" />
 </p>
 
+![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=tabishaliansari&theme=chartreuse_dark)
+![](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=tabishaliansari&theme=chartreuse_dark)
+![](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=tabishaliansari&theme=chartreuse_dark)
+![](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=tabishaliansari&theme=chartreuse_dark)
+![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=tabishaliansari&theme=chartreuse_dark&utcOffset=8)
+
 ---
 
 ## ðŸ“Œ Goals & Grit
