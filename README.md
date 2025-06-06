@@ -23,6 +23,10 @@
 <p align="center">
   <img src="https://skillicons.dev/icons?i=python,java,c,cpp" />
   <br/>
+  <img src="https://skillicons.dev/icons?i=html,css,js,ts" />
+  <br/>
+  <img src="https://skillicons.dev/icons?i=react,nodejs" />
+  <br/>
   <img src="https://skillicons.dev/icons?i=opencv,pytorch,tensorflow,git" />
   <br/>
   <img src="https://skillicons.dev/icons?i=mongodb,mysql,postgres,grafana" />
