@@ -20,18 +20,26 @@
 
 ## 🔧 My Arsenal (I am not a Gunners fan)– Tech Stack
 
-<p align="center">
+< align="center">
+  <strong>Programming Languages</strong><br/>
   <img src="https://skillicons.dev/icons?i=python,java,c,cpp" />
   <br/>
+  <strong>Web Development</strong><br/>
   <img src="https://skillicons.dev/icons?i=html,css,js,ts" />
   <br/>
-  <img src="https://skillicons.dev/icons?i=react,nodejs" />
+  <strong>Software Development Frameworks</strong><br/>
+  <img src="https://skillicons.dev/icons?i=react,nodejs,flask,spring" />
   <br/>
-  <img src="https://skillicons.dev/icons?i=opencv,pytorch,tensorflow,git" />
+  <strong>Databases</strong><br/>
+  <img src="https://skillicons.dev/icons?i=mongodb,mysql,postgres,redis" />
+  <br/>  
+  <strong>Data Science</strong><br/>
+  <img src="https://skillicons.dev/icons?i=opencv,pytorch,tensorflow,sklearn" />
   <br/>
-  <img src="https://skillicons.dev/icons?i=mongodb,mysql,postgres,grafana" />
-  <br/>
-  <img src="https://skillicons.dev/icons?i=fastapi,flask,vscode,linux" />
+  <strong>Tools</strong><br/>
+  <img src="https://skillicons.dev/icons?i=docker,kubernetes,git,github" />
+  <strong>Build Tools</strong><br/>
+  <img src="https://skillicons.dev/icons?i=maven,vite" />
 </p>
 
 <p align="center">
