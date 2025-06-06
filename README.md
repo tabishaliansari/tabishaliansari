@@ -21,7 +21,7 @@
 ## 🔧 My Arsenal (I am not a Gunners fan)– Tech Stack
 
 <p align="center">
-  <strong>Programming Languages</strong><br/>
+  <strong>Programming Languages</strong>
   <img src="https://skillicons.dev/icons?i=python,java,c,cpp" />
   <br/>
   <strong>Web Development</strong><br/>
@@ -38,6 +38,7 @@
   <br/>
   <strong>Tools</strong><br/>
   <img src="https://skillicons.dev/icons?i=docker,kubernetes,git,github" />
+  <br/>  
   <strong>Build Tools</strong><br/>
   <img src="https://skillicons.dev/icons?i=maven,vite" />
 </p>
