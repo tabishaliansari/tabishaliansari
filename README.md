@@ -20,28 +20,53 @@
 
 ## 🔧 My Arsenal (I am not a Gunners fan)– Tech Stack
 
-<p align="center">
-  <strong>Programming Languages</strong>
-  <img src="https://skillicons.dev/icons?i=python,java,c,cpp" />
-  <br/>
-  <strong>Web Development</strong><br/>
-  <img src="https://skillicons.dev/icons?i=html,css,js,ts" />
-  <br/>
-  <strong>Software Development Frameworks</strong><br/>
-  <img src="https://skillicons.dev/icons?i=react,nodejs,flask,spring" />
-  <br/>
-  <strong>Databases</strong><br/>
-  <img src="https://skillicons.dev/icons?i=mongodb,mysql,postgres,redis" />
-  <br/>  
-  <strong>Data Science</strong><br/>
-  <img src="https://skillicons.dev/icons?i=opencv,pytorch,tensorflow,sklearn" />
-  <br/>
-  <strong>Tools</strong><br/>
-  <img src="https://skillicons.dev/icons?i=docker,kubernetes,git,github" />
-  <br/>  
-  <strong>Build Tools</strong><br/>
-  <img src="https://skillicons.dev/icons?i=maven,vite" />
-</p>
+<div align="center">
+
+<table>
+  <tr>
+    <td align="center">
+      <strong>Programming Languages</strong><br/>
+      <img src="https://skillicons.dev/icons?i=python,java,c,cpp" />
+    </td>
+    <td align="center">
+      <strong>Web Development</strong><br/>
+      <img src="https://skillicons.dev/icons?i=html,css,js,ts" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <strong>Frameworks</strong><br/>
+      <img src="https://skillicons.dev/icons?i=react,nodejs,flask,spring" />
+    </td>
+    <td align="center">
+      <strong>Databases</strong><br/>
+      <img src="https://skillicons.dev/icons?i=mongodb,mysql,postgres,redis" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <strong>Data Science</strong><br/>
+      <img src="https://skillicons.dev/icons?i=opencv,pytorch,tensorflow,sklearn" />
+    </td>
+    <td align="center">
+      <strong>Tools</strong><br/>
+      <img src="https://skillicons.dev/icons?i=docker,kubernetes,git,github" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <strong>Build Tools</strong><br/>
+      <img src="https://skillicons.dev/icons?i=maven,vite,pip,npm" />
+    </td>
+    <td align="center">
+      <strong>OS & others</strong><br/>
+      <img src="https://skillicons.dev/icons?i=windows,linux,figma,anaconda" />
+    </td>
+  </tr>
+</table>
+
+</div>
+
 
 <p align="center">
   <img src="https://img.shields.io/badge/Seaborn-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
