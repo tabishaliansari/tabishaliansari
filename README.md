@@ -20,7 +20,7 @@
 
 ## 🔧 My Arsenal (I am not a Gunners fan)– Tech Stack
 
-< align="center">
+<p align="center">
   <strong>Programming Languages</strong><br/>
   <img src="https://skillicons.dev/icons?i=python,java,c,cpp" />
   <br/>
