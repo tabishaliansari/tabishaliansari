@@ -4,11 +4,11 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=26&duration=2600&pause=900&color=A3A3A3&center=true&vCenter=true&width=600&lines=Tabish+Ali+Ansari;Building+and+shipping+products;Data+/+AI+/+Software;Simple+but+Unique" alt="Tabish Ali Ansari — building and shipping products">
 
-<a href="https://linkedin.com/in/tabishaliansari"><img src="https://img.shields.io/badge/LinkedIn-525252?style=flat-square" alt="LinkedIn"></a>
-<a href="https://tabishaliansari.vercel.app"><img src="https://img.shields.io/badge/Portfolio-525252?style=flat-square" alt="Portfolio"></a>
-<a href="https://x.com/tabish_ali004"><img src="https://img.shields.io/badge/X-525252?style=flat-square" alt="X"></a>
-<a href="https://youtube.com/@teammavericks-00"><img src="https://img.shields.io/badge/YouTube-525252?style=flat-square" alt="YouTube"></a>
-<a href="mailto:tabish.ansari004@yahoo.com"><img src="https://img.shields.io/badge/Email-525252?style=flat-square" alt="Email"></a>
+<a href="https://tabishaliansari.vercel.app"><img src="https://img.shields.io/badge/Portfolio-24292F?style=flat-square&labelColor=24292F" alt="Portfolio"></a>
+<a href="https://linkedin.com/in/tabishaliansari"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&labelColor=0A66C2" alt="LinkedIn"></a>
+<a href="https://x.com/tabish_ali004"><img src="https://img.shields.io/badge/X-24292F?style=flat-square&labelColor=24292F" alt="X"></a>
+<a href="https://youtube.com/@teammavericks-00"><img src="https://img.shields.io/badge/YouTube-FF0000?style=flat-square&labelColor=FF0000" alt="YouTube"></a>
+<a href="mailto:tabish.ansari004@yahoo.com"><img src="https://img.shields.io/badge/Email-6001D2?style=flat-square&labelColor=6001D2" alt="Email"></a>
 
 <img src="https://komarev.com/ghpvc/?username=tabishaliansari&color=a3a3a3&style=flat-square&label=profile+views" alt="profile views">
 

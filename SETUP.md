@@ -115,6 +115,9 @@ the Charts and cards workflow redraws both on every push to either file, and dai
   maximum-size dots — a solid field covering the whole frame. `load_grid` now returns the
   grid-resolution mask and the dot builders skip masked-out cells before inverting, so a cutout
   stays a cutout either way.
-- **Text-only social badges.** Simple Icons no longer carries `linkedin` or `yahoo`, so
-  `logo=linkedin` renders a badge with no icon. A row where two of five silently lose their
-  logo reads as broken, so none of them have one.
+- **Social badges: brand colours, no logos.** Simple Icons no longer carries `linkedin` or
+  `yahoo`, so `logo=linkedin` renders a badge with no icon at all. A row where two of five
+  silently lose their logo reads as broken, so none of them carry one. Colours are brand-accurate
+  except Vercel's and X's pure `#000000`, which is invisible against GitHub's `#0d1117` dark
+  canvas — both are lifted to `#24292F`, which reads as black on light and as a visible chip on
+  dark. Portfolio sits first so the two dark chips aren't adjacent.
