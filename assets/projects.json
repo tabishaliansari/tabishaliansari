@@ -1,0 +1,24 @@
+{
+  "_comment": "Featured repos, in README order. Stars, forks and language come live from the GitHub API on every run; the description here overrides the repo's own. 'repo' may be owner/repo for a repo that lives in an org, and 'name' overrides the card title and filename.",
+  "projects": [
+    {
+      "repo": "DA-workshop-101/Alzheimer-Stages-Classification-using-Deep-Learning",
+      "name": "ADAPT",
+      "description": "MRI brain scans sorted into stages of Alzheimer's by a VGG19 model, served as a FastAPI inference endpoint with Grad-CAM overlays so a clinician can see what the network looked at.",
+      "language": "Python"
+    },
+    {
+      "repo": "MetaboliQ-AI",
+      "description": "A diabetes risk classifier at 83% accuracy, built end to end from preprocessing to a deployed Flask service. Top 10 in India at the Intel AI Hackathon, IEEE INDICON, IIT Kharagpur."
+    },
+    {
+      "repo": "Power-Consumption-Projection",
+      "description": "Forecasting real electrical load. SARIMAX down to an RMSE of 1.35 after trend decomposition and feature work, with an LSTM tried against it for the longer temporal patterns."
+    },
+    {
+      "repo": "Vibe-Coding-by-Tabish/tabish-portfolio",
+      "name": "portfolio",
+      "description": "The site this profile links to. React 19 and TypeScript on Vite, Framer Motion for the transitions, and no router - the history API by hand, because two pages don't need a dependency."
+    }
+  ]
+}

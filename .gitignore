@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.DS_Store
+Thumbs.db
+
+# portrait working files (intermediates - the committed inputs are enough)
+me-crop.png
+me-cut.png

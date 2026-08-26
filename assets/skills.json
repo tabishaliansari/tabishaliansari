@@ -1,0 +1,34 @@
+{
+  "title": "Self-rated",
+  "_comment": "Self-rated, 0-100, and honestly self-rated - not a wall of 90s. Edit freely; the workflow redraws both themes on every push to this file.",
+  "axes": [
+    {
+      "label": "Python",
+      "value": 88
+    },
+    {
+      "label": "Data Eng",
+      "value": 80
+    },
+    {
+      "label": "ML / DL",
+      "value": 78
+    },
+    {
+      "label": "SQL / Data",
+      "value": 74
+    },
+    {
+      "label": "APIs / Backend",
+      "value": 72
+    },
+    {
+      "label": "Linux Servers/SRE",
+      "value": 78
+    },
+    {
+      "label": "MLOps / CI",
+      "value": 62
+    }
+  ]
+}

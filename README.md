@@ -1,161 +1,144 @@
-<h1 align="center">👋 Hey there, ma chérie! Buckle up — you’ve just entered Tabish’s Tech Universe! 💺🎢</h1>
-<p align="center">
-  <em>Freshly brewed AI enthusiast ☕ | Code conjurer 🧙 | Data dreamer 🌌</em><br>
-  <strong>B.Tech in Artificial Intelligence & Data Science @ <a href="https://aissmsioit.org/" target="_blank">AISSMS IOIT</a></strong><br>
-  <strong>Intern @ <a href="https://nonstopio.com/" target="_blank">NonStop io Technologies</a></strong>
-</p>
-
-
----
-
-## ✨ Who Am I?
-
-> You’ve stumbled into a place where Python breathes, data talks, and ideas come alive.
-
-🎓 I’m **Tabish Ali Ansari**, a relentless explorer of the tech cosmos. Currently pursuing a B.Tech in AI & Data Science, I thrive at the intersection of curiosity, creativity, and computation.
-
-💡 From building knowledge graphs for rare diseases to crafting prediction engines and cool dashboards — I don't just write code; I build experiences.
-
----
-
-## 🔧 My Arsenal (I am not a Gunners fan)– Tech Stack
-
 <div align="center">
 
-<table>
-  <tr>
-    <td align="center">
-      <strong>Programming Languages</strong><br/>
-      <img src="https://skillicons.dev/icons?i=python,java,c,cpp" />
-    </td>
-    <td align="center">
-      <strong>Web Development</strong><br/>
-      <img src="https://skillicons.dev/icons?i=html,css,js,ts" />
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <strong>Frameworks</strong><br/>
-      <img src="https://skillicons.dev/icons?i=react,nodejs,flask,spring" />
-    </td>
-    <td align="center">
-      <strong>Databases</strong><br/>
-      <img src="https://skillicons.dev/icons?i=mongodb,mysql,postgres,redis" />
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <strong>Data Science</strong><br/>
-      <img src="https://skillicons.dev/icons?i=opencv,pytorch,tensorflow,sklearn" />
-    </td>
-    <td align="center">
-      <strong>Tools</strong><br/>
-      <img src="https://skillicons.dev/icons?i=docker,kubernetes,git,github" />
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <strong>Build Tools</strong><br/>
-      <img src="https://skillicons.dev/icons?i=maven,vite,pip,npm" />
-    </td>
-    <td align="center">
-      <strong>OS & others</strong><br/>
-      <img src="https://skillicons.dev/icons?i=windows,linux,figma,anaconda" />
-    </td>
-  </tr>
-</table>
+<picture>
+  <source media="(prefers-color-scheme: dark)"  srcset="assets/portrait-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/portrait-light.svg">
+  <img src="assets/portrait-dark.svg" width="300" alt="Tabish Ali Ansari, as a dot matrix">
+</picture>
+
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=26&duration=2600&pause=900&color=A3A3A3&center=true&vCenter=true&width=600&lines=Tabish+Ali+Ansari;Building+and+shipping+products;Data+/+AI+/+Software;Simple+but+Unique" alt="Tabish Ali Ansari — building and shipping products">
+
+<a href="https://linkedin.com/in/tabishaliansari"><img src="https://img.shields.io/badge/LinkedIn-525252?style=flat-square" alt="LinkedIn"></a>
+<a href="https://tabishaliansari.vercel.app"><img src="https://img.shields.io/badge/Portfolio-525252?style=flat-square" alt="Portfolio"></a>
+<a href="https://x.com/tabish_ali004"><img src="https://img.shields.io/badge/X-525252?style=flat-square" alt="X"></a>
+<a href="https://youtube.com/@teammavericks-00"><img src="https://img.shields.io/badge/YouTube-525252?style=flat-square" alt="YouTube"></a>
+<a href="mailto:tabish.ansari004@yahoo.com"><img src="https://img.shields.io/badge/Email-525252?style=flat-square" alt="Email"></a>
+
+<img src="https://komarev.com/ghpvc/?username=tabishaliansari&color=a3a3a3&style=flat-square&label=profile+views" alt="profile views">
 
 </div>
 
+---
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Seaborn-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Neo4j-008CC1?style=for-the-badge&logo=neo4j&logoColor=white"/>
-  <img src="https://img.shields.io/badge/SpringBoot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"/>
-</p>
+## 01 — About
+
+I build data and AI systems end to end — the pipeline, the model, the API, and the thing
+someone actually clicks. Most of my work sits at the seam between data engineering and product.
+
+- **Currently** — Software Development Engineer at [NonStop io](https://nonstopio.com). Five PoCs shipped; now leading one product end to end.
+- **Studied** — B.Tech in Artificial Intelligence & Data Science, AISSMS IOIT Pune, 2022–2026.
+- **Competed** — Top 10 in India at the Intel AI Hackathon, IEEE INDICON, IIT Kharagpur. 1st runner-up at the Data Analytics Case Competition, ISB&M Pune.
+- **Off the clock** — public speaking and tech talks, football, and a table tennis habit I can't shake.
+
+## 02 — Toolbox
+
+<img src="https://skillicons.dev/icons?i=python,tensorflow,sklearn,fastapi,flask,react,ts,nodejs,postgres,docker,githubactions,gcp&perline=6" alt="Python, TensorFlow, scikit-learn, FastAPI, Flask, React, TypeScript, Node, Postgres, Docker, GitHub Actions, GCP">
+
+Twelve things, not thirty — this is the list I'd want to be asked about in an interview.
+
+## 03 — Self-rated
+
+Made up by me, on purpose. It's an opinion, not a measurement — the measured half of the
+page is further down, in **06**.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)"  srcset="assets/radar-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/radar-light.svg">
+  <img src="assets/radar-dark.svg" width="440" alt="Self-rated skill radar">
+</picture>
+
+## 04 — The year in commits
+
+<picture>
+  <source media="(prefers-color-scheme: dark)"  srcset="assets/metrics.isocalendar-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/metrics.isocalendar-light.svg">
+  <img src="assets/metrics.isocalendar-dark.svg" width="500" alt="Isometric contribution calendar">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/tabishaliansari/tabishaliansari/output/snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tabishaliansari/tabishaliansari/output/snake.svg">
+  <img src="https://raw.githubusercontent.com/tabishaliansari/tabishaliansari/output/snake-dark.svg" alt="A snake eating the contribution graph">
+</picture>
+
+## 05 — Selected work
+
+<table>
+<tr>
+<td width="50%">
+<a href="https://github.com/DA-workshop-101/Alzheimer-Stages-Classification-using-Deep-Learning">
+<picture>
+  <source media="(prefers-color-scheme: dark)"  srcset="assets/card-ADAPT-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/card-ADAPT-light.svg">
+  <img src="assets/card-ADAPT-dark.svg" width="420" alt="ADAPT">
+</picture>
+</a>
+</td>
+<td width="50%">
+<a href="https://github.com/tabishaliansari/MetaboliQ-AI">
+<picture>
+  <source media="(prefers-color-scheme: dark)"  srcset="assets/card-MetaboliQ-AI-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/card-MetaboliQ-AI-light.svg">
+  <img src="assets/card-MetaboliQ-AI-dark.svg" width="420" alt="MetaboliQ-AI">
+</picture>
+</a>
+</td>
+</tr>
+<tr>
+<td width="50%">
+<a href="https://github.com/tabishaliansari/Power-Consumption-Projection">
+<picture>
+  <source media="(prefers-color-scheme: dark)"  srcset="assets/card-Power-Consumption-Projection-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/card-Power-Consumption-Projection-light.svg">
+  <img src="assets/card-Power-Consumption-Projection-dark.svg" width="420" alt="Power-Consumption-Projection">
+</picture>
+</a>
+</td>
+<td width="50%">
+<a href="https://github.com/Vibe-Coding-by-Tabish/tabish-portfolio">
+<picture>
+  <source media="(prefers-color-scheme: dark)"  srcset="assets/card-portfolio-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/card-portfolio-light.svg">
+  <img src="assets/card-portfolio-dark.svg" width="420" alt="portfolio">
+</picture>
+</a>
+</td>
+</tr>
+</table>
+
+<sub>
+
+| | Live | Walkthrough | Built with |
+|---|---|---|---|
+| **ADAPT** | [adapt-webapp-007.netlify.app](https://adapt-webapp-007.netlify.app/) | [YouTube](https://www.youtube.com/watch?v=U3JPrEf1Syo) | VGG19 · FastAPI · React · Cloud Run |
+| **MetaboliQ-AI** | — | [YouTube](https://www.youtube.com/watch?v=sxvw4tzdTpY) | scikit-learn · Flask |
+| **Power-Consumption-Projection** | — | [YouTube](https://www.youtube.com/watch?v=3m64id9M-rU) | SARIMAX · LSTM · Databricks · Supabase |
+| **portfolio** | [tabishaliansari.vercel.app](https://tabishaliansari.vercel.app) | — | React 19 · TypeScript · Vite · Framer Motion |
+
+</sub>
+
+## 06 — Measured
+
+No opinions in this section — these come from the API.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)"  srcset="assets/card-stats-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/card-stats-light.svg">
+  <img src="assets/card-stats-dark.svg" width="440" alt="GitHub stats at a glance">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)"  srcset="assets/metrics.achievements-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/metrics.achievements-light.svg">
+  <img src="assets/metrics.achievements-dark.svg" width="440" alt="GitHub achievements">
+</picture>
 
 ---
 
-## 🌌 Why I Do What I Do
+<div align="center">
 
-> 🚀 "To bend the machine to human will—and then stretch imagination beyond."
+<sub>Everything on this page except the words is generated. Three GitHub Actions workflows
+redraw the portrait's neighbours — calendar, snake, radar, cards — on a schedule; the
+generators are in <code>scripts/</code> if you want them.</sub>
 
-I believe in **human-first AI**, crafting tech that makes lives better. I'm driven by impact, storytelling through data, and building tools that *matter*.
-
-So if you're here to browse GitHub for another generic dev, oops—wrong tab. 😄  
-But if you're looking for fresh talent with guts, grit, and game? You're home. 🏠
-
----
-
-## 🧪 Live Projects – Touch, Click, Explore!
-
-| 🚀 Project                                                                           | 💡 What It Does                                                                                          | 🔗 Live Demo                         |
-|--------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|--------------------------------------|
-| **[🧠 NeuroMedGraph](https://github.com/tabishaliansari/Mavericks_AMUHACKS4.0)**             | Extracts knowledge triples from rare disease literature using LLMs and visualizes them in a Neo4j graph. | [Demo](https://youtu.be/1sUiHItBjoA) |
-| **[💉 MetaboliQ AI](https://github.com/tabishaliansari/MetaboliQ-AI)**               | Comprehensive AI empowered Dashboard and Monitoring tool for Diabetes.                                   | [Demo](https://youtu.be/sxvw4tzdTpY) |
-| **[👨‍⚕️ Diagnosify IO](https://github.com/Ayushlokre/Mavericks)** | Real-time ML tool which diagnoses diseases aimed at aiding Medical Professionals.                        | [Demo](https://youtu.be/DMcQgEITDaU)                             |
-
-🧠 Want a deeper dive? Head into the repos. I comment like I’m teaching future-me.
-
----
-
-## ⚡ Hackathons: My Playground
-
-> “Deadlines? Check. Coffee? Check. Brain on fire? Absolutely.” 🔥
-
-🌐 **Intel AI Hackathon @ IEEE Indicon IIT KGP** – Top 10 national grand finalist.  
-🏆 **Smart India Hackathon**  
-🚀 **BLITZ by ISB&M Pune** - Prize Winner  
-🌟 **AMUHacks by AMU, Aligarh**  
-🧑‍💻 **Techathon by Innovation Foundation @ AISSMS IOIT**
-
----
-
-## 📈 GitHub Stats – Because Numbers Speak Too
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=tabishaliansari&label=Profile%20views&color=0e75b6&style=flat" /><br>
-  <img src="https://github-readme-stats.vercel.app/api?username=tabishaliansari&show_icons=true&theme=github_dark" />
-  <img src="https://streak-stats.demolab.com?user=tabishaliansari&theme=dark&hide_border=true" />
-  <img src="https://github-profile-trophy.vercel.app/?username=tabishaliansari&theme=onestar&no-frame=true&row=1&column=7" />
-</p>
-
-![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=tabishaliansari&theme=chartreuse_dark)
-![](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=tabishaliansari&theme=chartreuse_dark)
-![](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=tabishaliansari&theme=chartreuse_dark)
-![](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=tabishaliansari&theme=chartreuse_dark)
-![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=tabishaliansari&theme=chartreuse_dark&utcOffset=8)
-
----
-
-## 📌 Goals & Grit
-
-🎯 Build a community where people can work on:
-- 🤖 AI/ML products that ship
-- 🧠 Research in GenAI, ASI & Quantum Computing
-- 📊 Data platforms that inform real decisions
-
-And yes — one day — build a startup from scratch. Let’s talk moonshots. 🌕
-
----
-
-## 🎒 Fun Facts & Hobbies
-
-⚽ Footballer by heart – Hala Madrid 🤍  
-📚 Cinefile – From sci-fi to stoicism  
-🏊 Swimmer – Nothing beats deep thoughts underwater  
-🎶 Also a sucker for lo-fi beats while coding (open to collab playlists 🎧)
-
----
-
-## 📬 Contact Me (Slide into my DMs... professionally)
-
-📜 [My Resume](./Resume.pdf)  
-🧔 [Portfolio](https://tabishaliansari.carrd.co/)  
-📧 [Email Me](mailto:tabish.ansari004@yahoo.com)  
-🔗 [LinkedIn](https://www.linkedin.com/in/tabishaliansari/)
-
----
-
-> "Stay curious. Code boldly. Be ridiculously passionate." ❤️
+</div>
