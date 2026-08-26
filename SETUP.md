@@ -63,14 +63,15 @@ its own panel, so the same file reads identically in either theme:
 
 ```bash
 python scripts/dotify.py me-cut-tight.png -o assets/portrait \
-  --cols 88 --equalize --detail 0.9 --contrast 0.95 --reveal --color --bg "#0a0a0a"
+  --cols 116 --equalize --detail 0.9 --contrast 0.95 --reveal --color --bg "#0a0a0a"
 ```
 
 That writes a single `assets/portrait.svg` — no `<picture>` block needed, and the panel colour
 matches the portfolio site's dark surface.
 
 `--detail 0.9 --contrast 0.95` instead of the guide's `--detail 0.5`: at 0.5 his face still
-saturated. Cols 88 keeps the file at 230 KB.
+saturated. Cols 116 renders at 396 KB and holds up at the 420 px the README displays it at;
+88 was fine at 300 px but goes visibly coarse when scaled past that.
 
 Two rejected alternatives, in case you want to revisit:
 
