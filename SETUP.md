@@ -22,8 +22,8 @@ The local half is finished and committed. These are the switches only you can fl
 - [ ] Actions tab → run all three workflows once by hand (`Run workflow`).
 - [ ] Check the profile in **both** GitHub themes (Settings → Appearance) and on your phone.
 
-Until the Metrics workflow completes once, `assets/metrics.isocalendar-{dark,light}.svg` and
-`assets/metrics.achievements-{dark,light}.svg` are broken images, and the snake URLs 404 because the
+Until the Metrics workflow completes once, `assets/metrics.isocalendar.svg` and
+`assets/metrics.achievements.svg` are broken images, and the snake URLs 404 because the
 `output` branch doesn't exist yet. Both are expected on day one.
 
 With no `METRICS_TOKEN` the stat card renders 3 tiles instead of 6 — it degrades, it doesn't fail.
@@ -106,15 +106,12 @@ the Charts and cards workflow redraws both on every push to either file, and dai
 - **Monochrome, not green.** The palette in all three scripts is bone `#ededed` on dark and ink
   `#0a0a0a` on light, matching the portfolio site. Accent colour lives in exactly one place per
   script — the `THEMES` dict at the top.
-- **Metrics assets are rendered twice.** `lowlighter/metrics` draws a light card by default,
-  which floats on a dark profile. The isocalendar and achievements steps each run twice, with
-  `config_theme: light` and `config_theme: dark`, so the `<picture>` blocks have something real
-  to choose between. `metrics.habits` and `metrics.languages` are still generated but unused.
-- **`dotify.py` honours the subject mask when suppressing dots.** It used to enforce the
-  cutout by zeroing luminance outside the subject, which `--invert` turned straight back into
-  maximum-size dots — a solid field covering the whole frame. `load_grid` now returns the
-  grid-resolution mask and the dot builders skip masked-out cells before inverting, so a cutout
-  stays a cutout either way.
+- **Metrics assets are single files, in the action's default styling.** `lowlighter/metrics`
+  has **no theming input** — there is no `config_theme`, and nothing in its `action.yml`
+  controls light/dark. An earlier version of this workflow passed `config_theme`, which the
+  action rejects as an unsupported option; it failed on the first step every run and produced
+  no files at all. The only theming lever the action does expose is `extras_css`, if the default
+  card ever needs to be darkened to match the portrait's `#0a0a0a` panel.
 - **Social badges: brand colours, no logos.** Simple Icons no longer carries `linkedin` or
   `yahoo`, so `logo=linkedin` renders a badge with no icon at all. A row where two of five
   silently lose their logo reads as broken, so none of them carry one. Colours are brand-accurate

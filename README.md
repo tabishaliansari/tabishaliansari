@@ -45,11 +45,7 @@ page is further down, in **06**.
 
 ## 04 : The year in commits
 
-<picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="assets/metrics.isocalendar-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/metrics.isocalendar-light.svg">
-  <img src="assets/metrics.isocalendar-dark.svg" width="500" alt="Isometric contribution calendar">
-</picture>
+<img src="assets/metrics.isocalendar.svg" width="500" alt="Isometric contribution calendar">
 
 <picture>
   <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/tabishaliansari/tabishaliansari/output/snake-dark.svg">
@@ -123,10 +119,6 @@ No opinions in this section : these come from the API.
   <img src="assets/card-stats-dark.svg" width="440" alt="GitHub stats at a glance">
 </picture>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="assets/metrics.achievements-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/metrics.achievements-light.svg">
-  <img src="assets/metrics.achievements-dark.svg" width="440" alt="GitHub achievements">
-</picture>
+<img src="assets/metrics.achievements.svg" width="440" alt="GitHub achievements">
 
 ---
