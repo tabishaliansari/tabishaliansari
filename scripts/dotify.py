@@ -70,7 +70,7 @@ def load_grid(path: Path, cols: int, contrast: float, gamma: float,
               cell_aspect: float, square: bool = False,
               focus: tuple[float, float] = (0.5, 0.5),
               equalize: bool = False, detail: float = 0.0):
-    """Return (width, height, lum[y][x] in 0..1, rgb[y][x]).
+    """Return (width, height, lum[y][x] in 0..1, rgb[y][x], msk[y][x] or None).
 
     If the source has an alpha channel it is treated as a subject cutout: the
     image is flattened onto black, and the mask is carried through so nothing
@@ -116,13 +116,15 @@ def load_grid(path: Path, cols: int, contrast: float, gamma: float,
     # ~0.5 for monospace glyphs (which are about twice as tall as they are wide)
     rows = max(1, round(cols * (h / w) * cell_aspect))
     small_g = gray.resize((cols, rows), Image.Resampling.LANCZOS)
+    small_m = None
     if mask is not None:
         small_m = mask.resize((cols, rows), Image.Resampling.LANCZOS)
         small_g = ImageChops.multiply(small_g, small_m)
     small_c = img.resize((cols, rows), Image.Resampling.LANCZOS)
 
     gp, cp = small_g.load(), small_c.load()
-    rgb, lum = [], []
+    mp = small_m.load() if small_m is not None else None
+    rgb, lum, msk = [], [], None if mp is None else []
     for y in range(rows):
         rgb_row, lum_row = [], []
         for x in range(cols):
@@ -131,7 +133,9 @@ def load_grid(path: Path, cols: int, contrast: float, gamma: float,
             lum_row.append(min(1.0, max(0.0, v ** gamma)))
         rgb.append(rgb_row)
         lum.append(lum_row)
-    return cols, rows, lum, rgb
+        if mp is not None:
+            msk.append([mp[x, y] / 255.0 for x in range(cols)])
+    return cols, rows, lum, rgb, msk
 
 
 def circle_falloff(x, y, cols, rows, feather=0.06):
@@ -186,7 +190,7 @@ def svg_header(w, h, rows, opts):
     )
 
 
-def build_dots(cols, rows, lum, rgb, theme, opts):
+def build_dots(cols, rows, lum, rgb, theme, opts, msk=None):
     fg, dim, _ = THEMES[theme]
     cell = opts.cell
     max_r = cell * 0.5 * opts.dot_scale
@@ -195,6 +199,8 @@ def build_dots(cols, rows, lum, rgb, theme, opts):
     for y in range(rows):
         row = []
         for x in range(cols):
+            if msk is not None and msk[y][x] < 0.5:
+                continue          # outside the subject cutout - never drawn
             v = lum[y][x]
             if opts.invert:
                 v = 1 - v
@@ -225,7 +231,7 @@ def build_dots(cols, rows, lum, rgb, theme, opts):
     return "".join(out), cols * cell, rows * cell
 
 
-def build_binary(cols, rows, lum, rgb, theme, opts):
+def build_binary(cols, rows, lum, rgb, theme, opts, msk=None):
     fg, dim, _ = THEMES[theme]
     cell = opts.cell
     lanes = opts.lanes
@@ -236,6 +242,8 @@ def build_binary(cols, rows, lum, rgb, theme, opts):
     for y in range(rows):
         row = []
         for x in range(cols):
+            if msk is not None and msk[y][x] < 0.5:
+                continue          # outside the subject cutout - never drawn
             v = lum[y][x]
             if opts.invert:
                 v = 1 - v
@@ -376,10 +384,10 @@ def main(argv=None):
         sys.exit(f"--focus wants two numbers like 0.55,0.42 (got {args.focus!r})")
 
     args.out.parent.mkdir(parents=True, exist_ok=True)
-    cols, rows, lum, rgb = load_grid(args.image, args.cols, args.contrast,
-                                     args.gamma, args.cell_aspect,
-                                     args.square, (fx, fy),
-                                     args.equalize, args.detail)
+    cols, rows, lum, rgb, msk = load_grid(args.image, args.cols, args.contrast,
+                                          args.gamma, args.cell_aspect,
+                                          args.square, (fx, fy),
+                                          args.equalize, args.detail)
 
     if args.mode in ("ascii", "braille"):
         text = (build_ascii if args.mode == "ascii" else build_braille)(
@@ -394,7 +402,7 @@ def main(argv=None):
     # renders would be byte-identical. Emit one theme-neutral file instead.
     themes = ("dark",) if args.color else ("dark", "light")
     for theme in themes:
-        body, w, h = builder(cols, rows, lum, rgb, theme, args)
+        body, w, h = builder(cols, rows, lum, rgb, theme, args, msk)
         svg = svg_header(w, h, rows, args) + body + "</g></svg>"
         stem = args.out.name if args.color else f"{args.out.name}-{theme}"
         dest = args.out.with_name(f"{stem}.svg")

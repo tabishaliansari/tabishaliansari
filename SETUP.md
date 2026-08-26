@@ -36,37 +36,47 @@ pip install pillow
 
 ### Portrait
 
-The source photo is a lectern shot with a bright LED wall behind it. Rendered straight, the
-background dominates and `--equalize` measures the curtain instead of the face, so the face
-collapses into one flat white mass. Two extra steps fix it, and both matter:
+Rendered in colour: `--color` takes each dot's fill from the photo itself. Two things the
+guide's recipe doesn't cover had to be solved for this particular photo.
+
+**The background.** It's a lectern shot against a bright LED wall. Rendered straight, the wall
+dominates and `--equalize` measures the curtain instead of the face, so the face collapses into
+one flat white mass. Cutting the background out turns the alpha channel into a subject mask, so
+`--equalize` measures only him and nothing is drawn outside the silhouette:
 
 ```bash
-# 1. cut the background out - the alpha channel becomes a subject mask, so --equalize
-#    measures only him and nothing is drawn outside the silhouette
-pip install rembg onnxruntime
+pip install pillow rembg onnxruntime
 python -c "
 from PIL import Image; from rembg import remove, new_session
 Image.open('me.JPG').crop((963,0,2263,1300)).save('me-crop-tight.png')
 remove(Image.open('me-crop-tight.png'), session=new_session('u2netp')).save('me-cut-tight.png')"
-
-# 2. the light theme needs the subject's tones inverted. Dot size tracks brightness, so on a
-#    white page a bright face becomes big dark dots - a photographic negative. Inverting the
-#    subject (and NOT using --invert, which would also invert the black background into a full
-#    grid of dots) puts the ink on his hair and shirt where it belongs.
-python -c "
-from PIL import Image, ImageOps
-im = Image.open('me-cut-tight.png').convert('RGBA'); a = im.split()[3]
-inv = ImageOps.invert(Image.merge('RGB', im.split()[:3])).convert('RGBA'); inv.putalpha(a)
-inv.save('me-cut-tight-inv.png')"
-
-# 3. render each theme from its own input
-python scripts/dotify.py me-cut-tight.png     -o assets/portrait --cols 88 --equalize --detail 0.9 --contrast 0.95 --reveal
-python scripts/dotify.py me-cut-tight-inv.png -o assets/portrait --cols 88 --equalize --detail 0.9 --contrast 0.95 --reveal
-# keep portrait-dark.svg from the first run and portrait-light.svg from the second
 ```
 
+`u2netp` is the 4.7 MB model — rembg's default is a 1 GB download and the small one is plenty
+for a mask this coarse.
+
+**Both themes from one file.** The guide says `--color` works on both themes because the fills
+come from the photo. That holds for an evenly-lit photo on a light background; it does not hold
+here. Dot *size* tracks brightness, so on a white page his black hair and navy shirt become
+tiny dots that vanish and you get a face with no head. `--bg` fixes it by giving the portrait
+its own panel, so the same file reads identically in either theme:
+
+```bash
+python scripts/dotify.py me-cut-tight.png -o assets/portrait \
+  --cols 88 --equalize --detail 0.9 --contrast 0.95 --reveal --color --bg "#0a0a0a"
+```
+
+That writes a single `assets/portrait.svg` — no `<picture>` block needed, and the panel colour
+matches the portfolio site's dark surface.
+
 `--detail 0.9 --contrast 0.95` instead of the guide's `--detail 0.5`: at 0.5 his face still
-saturated. Cols 88 keeps both files ~232 KB; 100 pushed the light one past 500 KB.
+saturated. Cols 88 keeps the file at 230 KB.
+
+Two rejected alternatives, in case you want to revisit:
+
+- **No `--bg`.** Great on dark, weak on light — vivid face with no silhouette behind it.
+- **A `--color --invert` file for the light theme.** Strong silhouette, but almost no colour
+  survives, because the colour lives in the highlights and halftone puts little ink there.
 
 ### Radar and cards
 
@@ -99,6 +109,11 @@ the Charts and cards workflow redraws both on every push to either file, and dai
   which floats on a dark profile. The isocalendar and achievements steps each run twice, with
   `config_theme: light` and `config_theme: dark`, so the `<picture>` blocks have something real
   to choose between. `metrics.habits` and `metrics.languages` are still generated but unused.
+- **`dotify.py` honours the subject mask when suppressing dots.** It used to enforce the
+  cutout by zeroing luminance outside the subject, which `--invert` turned straight back into
+  maximum-size dots — a solid field covering the whole frame. `load_grid` now returns the
+  grid-resolution mask and the dot builders skip masked-out cells before inverting, so a cutout
+  stays a cutout either way.
 - **Text-only social badges.** Simple Icons no longer carries `linkedin` or `yahoo`, so
   `logo=linkedin` renders a badge with no icon. A row where two of five silently lose their
   logo reads as broken, so none of them have one.

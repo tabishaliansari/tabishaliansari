@@ -24,11 +24,12 @@
 <p class="missing">Each asset is shown against both a dark and a light card, the way GitHub will render it.</p>
 
 <h2>portrait <button id="replay">replay the load-in</button></h2>
+<p class="missing">--color carries its own <code>#0a0a0a</code> panel, so one file serves both themes.</p>
 <div class="row">
-  <div class="card"><span class="tag">portrait-dark.svg (on dark)</span>
-    <img class="portrait" data-src="assets/portrait-dark.svg" src="assets/portrait-dark.svg" width="300" onerror="this.replaceWith(Object.assign(document.createElement('p'),{className:'missing',textContent:'not generated yet - run dotify.py'}))"></div>
-  <div class="card light"><span class="tag" style="color:#57606a">portrait-light.svg (on light)</span>
-    <img class="portrait" data-src="assets/portrait-light.svg" src="assets/portrait-light.svg" width="300" onerror="this.replaceWith(Object.assign(document.createElement('p'),{className:'missing',textContent:'not generated yet'}))"></div>
+  <div class="card"><span class="tag">portrait.svg (page: dark)</span>
+    <img class="portrait" data-src="assets/portrait.svg" src="assets/portrait.svg" width="300" onerror="this.replaceWith(Object.assign(document.createElement('p'),{className:'missing',textContent:'not generated yet - run dotify.py'}))"></div>
+  <div class="card light"><span class="tag" style="color:#57606a">portrait.svg (page: light)</span>
+    <img class="portrait" data-src="assets/portrait.svg" src="assets/portrait.svg" width="300" onerror="this.replaceWith(Object.assign(document.createElement('p'),{className:'missing',textContent:'not generated yet'}))"></div>
 </div>
 <script>
   document.getElementById('replay').onclick = () => {

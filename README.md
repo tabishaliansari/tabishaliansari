@@ -1,10 +1,6 @@
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="assets/portrait-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/portrait-light.svg">
-  <img src="assets/portrait-dark.svg" width="300" alt="Tabish Ali Ansari, as a dot matrix">
-</picture>
+<img src="assets/portrait.svg" width="300" alt="Tabish Ali Ansari, as a dot matrix">
 
 <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=26&duration=2600&pause=900&color=A3A3A3&center=true&vCenter=true&width=600&lines=Tabish+Ali+Ansari;Building+and+shipping+products;Data+/+AI+/+Software;Simple+but+Unique" alt="Tabish Ali Ansari — building and shipping products">
 
